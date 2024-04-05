@@ -20,3 +20,29 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+.icon-menu {
+  width: 30px;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  width: 100px;
+  justify-content: space-between;
+  background-color: steelblue;
+  padding: 0 1rem;
+}
+@media screen and (width>=768px) {
+  .menu {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.menu__item {
+  padding: 0.8rem 0;
+}
+
+.show {
+  display: flex;
+}
